@@ -6,7 +6,7 @@ function MailboxList(props) {
     <>
     <div>MailboxList</div>
       {props.mailboxes.map((mail)=>(
-        <Link key={mail._id} to={`/mailboxes/${mail._id}`} mail={mail}> {mail.boxHolder}</Link>
+        <Link key={mail._id} to={`/mailboxes/${mail._id}`}> {mail.boxHolder}</Link>
       ))}
     </>
   )

@@ -31,7 +31,7 @@ function App() {
           />
           <Route
             path="/mailboxes/:mailboxId"
-            element={<MailboxDetails />}
+            element={<MailboxDetails mailboxes={mailboxes}/>}
           />
         </Routes>
     </>
