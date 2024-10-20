@@ -23,7 +23,7 @@ function App() {
           <Route path="/" element={<main><h1>Post Office</h1></main>} />
           <Route
             path="/mailboxes"
-            element={<MailboxList />}
+            element={<MailboxList mailboxes={mailboxes}/>}
           />
           <Route
             path="/new-mailbox"

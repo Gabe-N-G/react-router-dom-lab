@@ -7,7 +7,6 @@ const initalState={
 
 const MailboxForm = (props) => {
   
-  
   const [formData, setFormData] = useState(initalState)
 
   const handleChange = (e) => {
